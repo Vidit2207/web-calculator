@@ -1,0 +1,67 @@
+.wrapper {
+  width: 100%;
+  max-width: max(90rem, 75%);
+  margin: auto;
+  padding: 2%;
+}
+@media screen and (min-width: 0px) and (max-width: 360px) {
+  .wrapper {
+    padding: 4%;
+  }
+}
+@media screen and (min-width: 361px) and (max-width: 768px) {
+  .wrapper {
+    padding: 4%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .wrapper {
+    padding: 3%;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1920px) {
+  .wrapper {
+    padding: 2%;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.row--center {
+  justify-content: center;
+  align-items: center;
+}
+.row--center--x {
+  justify-content: center;
+}
+.row--center--y {
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
